@@ -1,14 +1,16 @@
 {
   "name": "typescript-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample Typescript Template",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node .",
+    "dev": "tsc && node ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "StationaryStation",
+  "license": "GPLv3",
   "dependencies": {
     "prettier": "^2.8.4",
     "typescript": "^4.9.5"
